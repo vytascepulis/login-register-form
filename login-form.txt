@@ -1,0 +1,16 @@
+dark grey, yellow, red collor pallete
+
+background image w/ filter
+
+gradient login button / changes gradient on click (mobile), on hover (desktop)
+
+font awesome icons in nick/pass fields
+
+login, password placeholder go to legend on focus (legend on input at first) + google like field select animation
+
+sign in / register toggle button for spa-like feel
+
+login w/ fb, twitter, etc
+
+show pass button
+
