@@ -1,4 +1,4 @@
-# Prisijungimo / Registracijos forma
+# Prisijungimo / registracijos forma
 Forma buvo kurta praktikuotis CSS bei Javascript sugebėjimus. Forma skirta mobile aplinkai, tačiau įdėjus į container galima būtų pritaikyti desktop aplikacijai.  
 Įgyvendinti projektą užtruko apie dvi paras.  
 
