@@ -2,7 +2,7 @@
 Forma buvo kurta praktikuotis CSS bei Javascript sugebėjimus. Forma skirta mobile aplinkai, tačiau įdėjus į container galima būtų pritaikyti desktop aplikacijai.
 
 ## Planavimas
-Pirminis formos planas buvo surašytas į [login-form.txt](https://github.com/vytascepulis/login-register-form/blob/master/login-form.txt) failą.
+Pirminis formos planas buvo surašytas į [login-form.txt](https://github.com/vytascepulis/login-register-form/blob/master/login-form.txt) failą.  
 Dizainas
 
 ### Spalvų paletė
