@@ -1,5 +1,6 @@
 # Prisijungimo / Registracijos forma
-Forma buvo kurta praktikuotis CSS bei Javascript sugebėjimus. Forma skirta mobile aplinkai, tačiau įdėjus į container galima būtų pritaikyti desktop aplikacijai.     
+Forma buvo kurta praktikuotis CSS bei Javascript sugebėjimus. Forma skirta mobile aplinkai, tačiau įdėjus į container galima būtų pritaikyti desktop aplikacijai.  
+
 **Baigtą projektą** galima rasti [čia](http://owner-occupied-bag.000webhostapp.com/).
 
 ## Planavimas
