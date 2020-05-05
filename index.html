@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mano web app</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&family=Roboto:ital,wght@0,100;1,100;1,400&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="background"></div>
+    <div id="main">
+        <h1 class="top-text"><span id="twrapIn"></span><span id="cursor">|</span></h1>
+        <form>
+            <div class="field">
+                <i class="fas fa-user usernameIcon icon"></i>
+                    <span class="placeholder">username</span>
+                <input class="text-field username" type="text" name="username" autocomplete="off" spellcheck="false">
+                    <span class="border-bottom"></span>
+            </div>
+            
+            <div class="field">
+                <i class="fas fa-lock passwordIcon icon"></i>
+                    <span class="placeholder">password</span>
+                <input class="text-field password" type="password" name="password" autocomplete="off" spellcheck="false">
+                <i class="far fa-eye"></i>
+                    <span class="border-bottom"></span>
+            </div>
+            <div class="remember">
+                <span class="left"><a href="#" class="check"><i class="far fa-circle check-icon"></i> Remember me</a></span>
+                <span class="right"><a href="#" class="link">Forgot password?</a></span>
+            </div>
+            <button class="submit" value="sign in">sign in</button>
+        </form>
+        <footer>
+            Don't have an account? <a href="#" class="reg">Register here</a>
+        </footer>
+    </div>
+
+    <div id="register">
+        <h1 class="top-text">Create a new account</h1>
+        <form class="regbtn">
+            <div class="field">
+                <i class="fas fa-user usernameIcon icon"></i>
+                    <span class="placeholder">username</span>
+                <input class="text-field username" type="text" name="username" autocomplete="off" spellcheck="false">
+                    <span class="border-bottom"></span>
+            </div>
+            <div class="field">
+                <i class="fas fa-lock passwordIcon icon"></i>
+                    <span class="placeholder">password</span>
+                <input class="text-field password" type="password" name="password" autocomplete="off" spellcheck="false">
+                    <span class="border-bottom"></span>
+            </div>
+            <div class="field">
+                <i class="fas fa-lock passwordIcon icon"></i>
+                    <span class="placeholder">repeat password</span>
+                <input class="text-field password" type="password" name="password2" autocomplete="off" spellcheck="false">
+                    <span class="border-bottom"></span>
+            </div>
+            <div class="field">
+                <i class="far fa-envelope emailIcon icon"></i>
+                    <span class="placeholder">your e-mail</span>
+                <input class="text-field email" type="text" name="email" autocomplete="off" spellcheck="false">
+                    <span class="border-bottom"></span>
+            </div>
+            <button class="submit" value="sign in">register</button>
+        </form>
+        <footer>
+            Already have an account? <a href="#" class="log">Log in here</a>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
